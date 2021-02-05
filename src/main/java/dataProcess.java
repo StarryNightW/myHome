@@ -28,7 +28,8 @@ public class dataProcess {
     public static void formatData(String filePath) {
         String[] splitPath = filePath.split("\\\\");
         String fileName = splitPath[splitPath.length - 1];
-        String folder = "D:\\idea_java\\covid19_sta\\newData";
+       // String folder = "D:\\idea_java\\covid19_sta\\newData";
+        String folder = "D:\\data\\covid19_sta\\newData";
         String newFileName = folder + "\\" + fileName;
         //File newFile = new File(newFileName);
         if (!judgeFileExit(newFileName,folder)) {
@@ -76,11 +77,15 @@ public class dataProcess {
         return flag;
     }
 
+    //运行该main方法
     public static void main(String args[]) throws IOException {
         dataProcess test = new dataProcess();
-        ArrayList<String> testResult = test.getFilePath("D:/idea_java/covid19_sta/rawData");
-        //  String firstFile = testResult.get(0);
-/*        for (String file : testResult) {
+        String isiFoldPathRaw = "D:\\data\\covid19_sta\\rawData";
+        String isiFoldPathNew = "D:\\data\\covid19_sta\\newData";
+        //String myPCPath = "";
+       /* ArrayList<String> testResult = test.getFilePath(isiFoldPathRaw);
+        String firstFile = testResult.get(0);
+        for (String file : testResult) {
             formatData(file);
         }*/
        // System.out.println(judgeFileExit("D:\\idea_java\\covid19_sta\\newData\\0105.txt","D:\\idea_java\\covid19_sta\\newData"));
@@ -88,8 +93,9 @@ public class dataProcess {
         /*BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File("D:\\idea_java\\covid19_sta\\newData\\1014.txt"))));
         bw.write("test");
         bw.flush();*/
-        String foldPath = "D:\\idea_java\\covid19_sta\\newData";
+        //String foldPath = "D:\\idea_java\\covid19_sta\\newData";
+       // String foldPath = "D:\\data\\covid19_sta\\rawData";
         factorExtract fe = new factorExtract();
-        fe.covertMap(foldPath);
+        fe.covertMap(isiFoldPathNew);
     }
 }

@@ -12,7 +12,8 @@ public class mySqlHelper {
     public static final String url = "jdbc:mysql://127.0.0.1/covid19_sjz?serverTimezone = GMT";
     public static final String name = "com.mysql.jdbc.Driver";
     public static final String user = "root";
-    public static final String password = "123456";
+    //isi密码：12345678，myPC 密码：123456
+    public static final String password = "12345678";
     public Connection conn = null;
     public PreparedStatement pst = null;
 
