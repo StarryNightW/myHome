@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1ee010a-c921-4250-801a-3c35586ad113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mySqlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mySqlHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/myHome.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProcess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factorExtract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factorExtract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mySqlExer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mySqlExer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mySqlHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mySqlHelper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +77,7 @@
       <updated>1610681642994</updated>
       <workItem from="1610681648652" duration="3247000" />
       <workItem from="1610789350472" duration="14137000" />
-      <workItem from="1612514681774" duration="2704000" />
+      <workItem from="1612514681774" duration="3302000" />
     </task>
     <servers />
   </component>
